@@ -1,9 +1,6 @@
-Chess AI - Build 11 (replaces Build 10)
+Chess AI - Build 12 (only app-plus.js changed since Build 11)
 
-Upload BOTH files to the same GitHub folder as index.html (they do not replace app.js or ai-worker.js):
-  - app-plus.js      (overwrite the old one: open it, pencil icon, paste the new contents, commit)
-  - ai-worker-plus.js  (new file: Add file > Upload files)
-Then in index.html change ./app-plus.js?v=10 to ./app-plus.js?v=11 and commit.
-Wait a minute and hard refresh (Ctrl+Shift+R).
-
-Undo: set index.html back to ./app.js?v=8.
+1. On GitHub, open app-plus.js > pencil icon > select all > paste the new contents > Commit.
+   (ai-worker-plus.js is unchanged; upload it only if it is not already in your repo.)
+2. In index.html change ./app-plus.js?v=11 to ./app-plus.js?v=12 and commit.
+3. Wait a minute, then hard refresh (Ctrl+Shift+R).
